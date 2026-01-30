@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Distress UAE | Properties</title>
+    <link rel="stylesheet" href="css/main.min.css">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <meta name="apple-mobile-web-app-title" content="East Property">
+    <link rel="manifest" href="/site.webmanifest">
+    <!--  -->
+</head>
+
+<body>
+<div class="wrapper">
+    <header class="header">
+        <div class="container">
+            <div class="header-wrapper">
+                <a href="/" class="header-logo">
+                    <img src="/img/logo.svg" width="132" height="50" alt="Vector logotype">
+                </a>
+
+                <nav id="header-nav" class="header-nav">
+                    <ul class="menu">
+                        <li class="menu-item">
+                            <a href="/properties.html">DISTRESS PROPERTIES</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">SOLD OUT</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">FAQ</a>
+                        </li>
+                    </ul>
+                </nav>
+                <a href="#" class="button sm black" target="_blank" rel="noopener noreferrer">SELL PROPERTY</a>
+            </div>
+        </div>
+    </header>
+
+<main>
+    <section class="properties-section">
+        <h2 class="sr-only">Hidden title</h2>
+        <div class="container">
+            <div class="properties-section-wrapper">
+                <div class="results-filters-wrapper">
+                    <div class="results-filters-items">
+                        <button class="result-filter" type="button" data-filter="price">
+                            <span class="result-filter-top">
+                                <span class="result-title">
+                                    Max Price
+                                </span>
+                            </span>
+                            <span class="result-filter-bottom">
+                                <span class="result-value">
+                                    8,000,000
+                                    <img src="/img/arrow-down.svg" width="16" height="16" alt="Dropdown arrow">
+                                </span>
+                            </span>
+                            <span class="result-dropdown"></span>
+                        </button>
+                        <div class="result-filter-wrapper">
+                            <button class="result-filter" type="button" data-filter="beds_baths">
+                                <span class="result-filter-top">
+                                    <span class="result-title">
+                                        Beds and baths
+                                    </span>
+                                </span>
+                                <span class="result-filter-bottom">
+                                    <span class="result-value">
+                                        <span data-result-beds-baths-text>Select</span>
+                                        <img src="/img/arrow-down.svg" width="16" height="16" alt="Dropdown arrow">
+                                    </span>
+                                </span>
+                            </button>
+                            <div class="beds-baths-dropdown fixed" data-result-dropdown="beds_baths" hidden>
+                                <div class="beds-baths-content">
+                                    <div class="beds-baths-section">
+                                        <span class="beds-baths-label">Beds</span>
+                                        <div class="beds-baths-buttons">
+                                            <button type="button" class="beds-baths-btn" data-beds="1">1</button>
+                                            <button type="button" class="beds-baths-btn" data-beds="2">2</button>
+                                            <button type="button" class="beds-baths-btn" data-beds="3">3</button>
+                                            <button type="button" class="beds-baths-btn" data-beds="4">4</button>
+                                            <button type="button" class="beds-baths-btn" data-beds="5+">5+</button>
+                                        </div>
+                                    </div>
+                                    <div class="beds-baths-section">
+                                        <span class="beds-baths-label">Baths</span>
+                                        <div class="beds-baths-buttons">
+                                            <button type="button" class="beds-baths-btn" data-baths="1">1</button>
+                                            <button type="button" class="beds-baths-btn" data-baths="2">2</button>
+                                            <button type="button" class="beds-baths-btn" data-baths="3">3</button>
+                                            <button type="button" class="beds-baths-btn" data-baths="4">4</button>
+                                            <button type="button" class="beds-baths-btn" data-baths="5+">5+</button>
+                                        </div>
+                                    </div>
+                                    <div class="beds-baths-actions">
+                                        <button class="button gray sm beds-baths-cancel" type="button">
+                                            <span>Cancel</span>
+                                        </button>
+                                        <button class="button green sm beds-baths-apply" type="button">
+                                            <span>Apply</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <input type="hidden" name="beds" value="" data-result-beds-value>
+                            <input type="hidden" name="baths" value="" data-result-baths-value>
+                        </div>
+                        <button class="result-filter" type="button" data-filter="property_type">
+                            <span class="result-filter-top">
+                                <span class="result-title">
+                                    Property type
+                                </span>
+                            </span>
+                            <span class="result-filter-bottom">
+                                <span class="result-value">
+                                    All
+                                    <img src="/img/arrow-down.svg" width="16" height="16" alt="Dropdown arrow">
+                                </span>
+                            </span>
+                            <span class="result-dropdown"></span>
+                        </button>
+                    </div>
+                </div>
+                <nav class="woocommerce-breadcrumb" aria-label="Breadcrumb">
+                    <a href="/" class="breadcrumb-link">Distress UAE</a>
+                    <span class="delimiter">/</span>
+                    <span class="breadcrumb-current">All properties</span>
+                </nav>
+                <div class="title-top">
+                    <h2>Selling fast 🔥 only 49 properties left</h2>
+                    <button class="sort">
+                        Show expensive first
+                        <img src="/img/arrow-down.svg" width="16" height="16" alt="Arrow down">
+                    </button>
+                </div>
+                <div class="properties-section-items">
+                    <div class="unit-card">
+                        <div class="unit-card-inner">
+                            <div class="unit-card-left">
+                                <div class="swiper single-swiper">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide"><img src="/img/h1.jpg" alt="Image"></div>
+                                        <div class="swiper-slide"><img src="/img/h2.jpg" alt="Image"></div>
+                                        <div class="swiper-slide"><img src="/img/h3.jpg" alt="Image"></div>
+                                        <div class="swiper-slide"><img src="/img/h4.jpg" alt="Image"></div>
+                                        <div class="swiper-slide"><img src="/img/h5.jpg" alt="Image"></div>
+                                    </div>
+                                    <div class="swiper-buttons">
+                                        <button class="swiper-prev sm"><img src="/img/swiper-arr.svg" width="16" height="16" alt="Prev"></button>
+                                        <button class="swiper-next sm"><img src="/img/swiper-arr.svg" width="16" height="16" alt="Next"></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="unit-card-right">
+                                <div class="unit-card-top">
+                                    <div class="unit-card-top-left">
+                                        <div class="unit-card-top-title">
+                                            <span class="unit-card-price">AED 6,100,000</span>
+                                            <span class="unit-card-desc">Apartment by Modon Properties</span>
+                                            <a href="#">Sisu Real Estate</a>
+                                        </div>
+                                    </div>
+                                    <div class="unit-card-top-right">
+                                        <div class="unit-card-labels">
+                                            <div class="label red">NEW</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="unit-card-bottom">
+                                    <div class="unit-card-info">
+                                        <div class="unit-card-info-top">
+                                            <div class="unit-card-info-items">
+                                                <span>
+                                                    <img src="/img/bed.svg" width="16" height="16" alt="Vector icon">
+                                                    2 Beds
+                                                </span>
+                                                <span>
+                                                    <img src="/img/bath.svg" width="16" height="16" alt="Vector icon">
+                                                    2 Baths
+                                                </span>
+                                                <span>
+                                                    <img src="/img/meters.svg" width="16" height="16" alt="Vector icon">
+                                                    110 sqft
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="unit-card-info-bottom">
+                                            <p>Abu Dhabi, Al Hudayriat Island, Bashayer Villas</p>
+                                            <div class="unit-card-info-buttons">
+                                                <a href="/unit.html" class="button gray sm">View details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cta-card">
+                        <div class="cta-card-img">
+                            <img src="/img/whatsapp-group.png" width="231" height="192" alt="Image">
+                        </div>
+                        <div class="cta-card-info">
+                            <h3>
+                                Don’t wait till it’s late
+                            </h3>
+                            <ul>
+                                <li>Distress opportunities disappear fast.</li>
+                                <li>There’s no “save for later.”</li>
+                                <li>No endless scrolling like a property portal.</li>
+                                <li>WhatsApp = instant access.</li>
+                            </ul>
+                            <a href="#" class="button xl green" target="_blank" rel="noopener noreferrer">
+                                <img src="/img/whatsapp-3d.png" width="24" height="24" alt="Векторная иконка">
+                                GET Distress DEALS
+                            </a>
+                        </div>
+                    </div>
+                    <div class="unit-card">
+                        <div class="unit-card-inner">
+                            <div class="unit-card-left">
+                                <div class="swiper single-swiper">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide"><img src="/img/h1.jpg" alt="Image"></div>
+                                        <div class="swiper-slide"><img src="/img/h2.jpg" alt="Image"></div>
+                                        <div class="swiper-slide"><img src="/img/h3.jpg" alt="Image"></div>
+                                        <div class="swiper-slide"><img src="/img/h4.jpg" alt="Image"></div>
+                                        <div class="swiper-slide"><img src="/img/h5.jpg" alt="Image"></div>
+                                    </div>
+                                    <div class="swiper-buttons">
+                                        <button class="swiper-prev sm"><img src="/img/swiper-arr.svg" width="16" height="16" alt="Prev"></button>
+                                        <button class="swiper-next sm"><img src="/img/swiper-arr.svg" width="16" height="16" alt="Next"></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="unit-card-right">
+                                <div class="unit-card-top">
+                                    <div class="unit-card-top-left">
+                                        <div class="unit-card-top-title">
+                                            <span class="unit-card-price">AED 6,100,000</span>
+                                            <span class="unit-card-desc">Apartment by Modon Properties</span>
+                                            <a href="#">Sisu Real Estate</a>
+                                        </div>
+                                    </div>
+                                    <div class="unit-card-top-right">
+                                        <div class="unit-card-labels">
+                                            <div class="label red">NEW</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="unit-card-bottom">
+                                    <div class="unit-card-info">
+                                        <div class="unit-card-info-top">
+                                            <div class="unit-card-info-items">
+                                                <span>
+                                                    <img src="/img/bed.svg" width="16" height="16" alt="Vector icon">
+                                                    2 Beds
+                                                </span>
+                                                <span>
+                                                    <img src="/img/bath.svg" width="16" height="16" alt="Vector icon">
+                                                    2 Baths
+                                                </span>
+                                                <span>
+                                                    <img src="/img/meters.svg" width="16" height="16" alt="Vector icon">
+                                                    110 sqft
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="unit-card-info-bottom">
+                                            <p>Abu Dhabi, Al Hudayriat Island, Bashayer Villas</p>
+                                            <div class="unit-card-info-buttons">
+                                                <a href="/unit.html" class="button gray sm">View details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="unit-card">
+                        <div class="unit-card-inner">
+                            <div class="unit-card-left">
+                                <div class="swiper single-swiper">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide"><img src="/img/h1.jpg" alt="Image"></div>
+                                        <div class="swiper-slide"><img src="/img/h2.jpg" alt="Image"></div>
+                                        <div class="swiper-slide"><img src="/img/h3.jpg" alt="Image"></div>
+                                        <div class="swiper-slide"><img src="/img/h4.jpg" alt="Image"></div>
+                                        <div class="swiper-slide"><img src="/img/h5.jpg" alt="Image"></div>
+                                    </div>
+                                    <div class="swiper-buttons">
+                                        <button class="swiper-prev sm"><img src="/img/swiper-arr.svg" width="16" height="16" alt="Prev"></button>
+                                        <button class="swiper-next sm"><img src="/img/swiper-arr.svg" width="16" height="16" alt="Next"></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="unit-card-right">
+                                <div class="unit-card-top">
+                                    <div class="unit-card-top-left">
+                                        <div class="unit-card-top-title">
+                                            <span class="unit-card-price">AED 6,100,000</span>
+                                            <span class="unit-card-desc">Apartment by Modon Properties</span>
+                                            <a href="#">Sisu Real Estate</a>
+                                        </div>
+                                    </div>
+                                    <div class="unit-card-top-right">
+                                        <div class="unit-card-labels">
+                                            <div class="label red">NEW</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="unit-card-bottom">
+                                    <div class="unit-card-info">
+                                        <div class="unit-card-info-top">
+                                            <div class="unit-card-info-items">
+                                                <span>
+                                                    <img src="/img/bed.svg" width="16" height="16" alt="Vector icon">
+                                                    2 Beds
+                                                </span>
+                                                <span>
+                                                    <img src="/img/bath.svg" width="16" height="16" alt="Vector icon">
+                                                    2 Baths
+                                                </span>
+                                                <span>
+                                                    <img src="/img/meters.svg" width="16" height="16" alt="Vector icon">
+                                                    110 sqft
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="unit-card-info-bottom">
+                                            <p>Abu Dhabi, Al Hudayriat Island, Bashayer Villas</p>
+                                            <div class="unit-card-info-buttons">
+                                                <a href="/unit.html" class="button gray sm">View details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="unit-card">
+                        <div class="unit-card-inner">
+                            <div class="unit-card-left">
+                                <div class="swiper single-swiper">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide"><img src="/img/h1.jpg" alt="Image"></div>
+                                        <div class="swiper-slide"><img src="/img/h2.jpg" alt="Image"></div>
+                                        <div class="swiper-slide"><img src="/img/h3.jpg" alt="Image"></div>
+                                        <div class="swiper-slide"><img src="/img/h4.jpg" alt="Image"></div>
+                                        <div class="swiper-slide"><img src="/img/h5.jpg" alt="Image"></div>
+                                    </div>
+                                    <div class="swiper-buttons">
+                                        <button class="swiper-prev sm"><img src="/img/swiper-arr.svg" width="16" height="16" alt="Prev"></button>
+                                        <button class="swiper-next sm"><img src="/img/swiper-arr.svg" width="16" height="16" alt="Next"></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="unit-card-right">
+                                <div class="unit-card-top">
+                                    <div class="unit-card-top-left">
+                                        <div class="unit-card-top-title">
+                                            <span class="unit-card-price">AED 6,100,000</span>
+                                            <span class="unit-card-desc">Apartment by Modon Properties</span>
+                                            <a href="#">Sisu Real Estate</a>
+                                        </div>
+                                    </div>
+                                    <div class="unit-card-top-right">
+                                        <div class="unit-card-labels">
+                                            <div class="label red">NEW</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="unit-card-bottom">
+                                    <div class="unit-card-info">
+                                        <div class="unit-card-info-top">
+                                            <div class="unit-card-info-items">
+                                                <span>
+                                                    <img src="/img/bed.svg" width="16" height="16" alt="Vector icon">
+                                                    2 Beds
+                                                </span>
+                                                <span>
+                                                    <img src="/img/bath.svg" width="16" height="16" alt="Vector icon">
+                                                    2 Baths
+                                                </span>
+                                                <span>
+                                                    <img src="/img/meters.svg" width="16" height="16" alt="Vector icon">
+                                                    110 sqft
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="unit-card-info-bottom">
+                                            <p>Abu Dhabi, Al Hudayriat Island, Bashayer Villas</p>
+                                            <div class="unit-card-info-buttons">
+                                                <a href="/unit.html" class="button gray sm">View details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="unit-card">
+                        <div class="unit-card-inner">
+                            <div class="unit-card-left">
+                                <div class="swiper single-swiper">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide"><img src="/img/h1.jpg" alt="Image"></div>
+                                        <div class="swiper-slide"><img src="/img/h2.jpg" alt="Image"></div>
+                                        <div class="swiper-slide"><img src="/img/h3.jpg" alt="Image"></div>
+                                        <div class="swiper-slide"><img src="/img/h4.jpg" alt="Image"></div>
+                                        <div class="swiper-slide"><img src="/img/h5.jpg" alt="Image"></div>
+                                    </div>
+                                    <div class="swiper-buttons">
+                                        <button class="swiper-prev sm"><img src="/img/swiper-arr.svg" width="16" height="16" alt="Prev"></button>
+                                        <button class="swiper-next sm"><img src="/img/swiper-arr.svg" width="16" height="16" alt="Next"></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="unit-card-right">
+                                <div class="unit-card-top">
+                                    <div class="unit-card-top-left">
+                                        <div class="unit-card-top-title">
+                                            <span class="unit-card-price">AED 6,100,000</span>
+                                            <span class="unit-card-desc">Apartment by Modon Properties</span>
+                                            <a href="#">Sisu Real Estate</a>
+                                        </div>
+                                    </div>
+                                    <div class="unit-card-top-right">
+                                        <div class="unit-card-labels">
+                                            <div class="label red">NEW</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="unit-card-bottom">
+                                    <div class="unit-card-info">
+                                        <div class="unit-card-info-top">
+                                            <div class="unit-card-info-items">
+                                                <span>
+                                                    <img src="/img/bed.svg" width="16" height="16" alt="Vector icon">
+                                                    2 Beds
+                                                </span>
+                                                <span>
+                                                    <img src="/img/bath.svg" width="16" height="16" alt="Vector icon">
+                                                    2 Baths
+                                                </span>
+                                                <span>
+                                                    <img src="/img/meters.svg" width="16" height="16" alt="Vector icon">
+                                                    110 sqft
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="unit-card-info-bottom">
+                                            <p>Abu Dhabi, Al Hudayriat Island, Bashayer Villas</p>
+                                            <div class="unit-card-info-buttons">
+                                                <a href="/unit.html" class="button gray sm">View details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="unit-card">
+                        <div class="unit-card-inner">
+                            <div class="unit-card-left">
+                                <div class="swiper single-swiper">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide"><img src="/img/h1.jpg" alt="Image"></div>
+                                        <div class="swiper-slide"><img src="/img/h2.jpg" alt="Image"></div>
+                                        <div class="swiper-slide"><img src="/img/h3.jpg" alt="Image"></div>
+                                        <div class="swiper-slide"><img src="/img/h4.jpg" alt="Image"></div>
+                                        <div class="swiper-slide"><img src="/img/h5.jpg" alt="Image"></div>
+                                    </div>
+                                    <div class="swiper-buttons">
+                                        <button class="swiper-prev sm"><img src="/img/swiper-arr.svg" width="16" height="16" alt="Prev"></button>
+                                        <button class="swiper-next sm"><img src="/img/swiper-arr.svg" width="16" height="16" alt="Next"></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="unit-card-right">
+                                <div class="unit-card-top">
+                                    <div class="unit-card-top-left">
+                                        <div class="unit-card-top-title">
+                                            <span class="unit-card-price">AED 6,100,000</span>
+                                            <span class="unit-card-desc">Apartment by Modon Properties</span>
+                                            <a href="#">Sisu Real Estate</a>
+                                        </div>
+                                    </div>
+                                    <div class="unit-card-top-right">
+                                        <div class="unit-card-labels">
+                                            <div class="label red">NEW</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="unit-card-bottom">
+                                    <div class="unit-card-info">
+                                        <div class="unit-card-info-top">
+                                            <div class="unit-card-info-items">
+                                                <span>
+                                                    <img src="/img/bed.svg" width="16" height="16" alt="Vector icon">
+                                                    2 Beds
+                                                </span>
+                                                <span>
+                                                    <img src="/img/bath.svg" width="16" height="16" alt="Vector icon">
+                                                    2 Baths
+                                                </span>
+                                                <span>
+                                                    <img src="/img/meters.svg" width="16" height="16" alt="Vector icon">
+                                                    110 sqft
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="unit-card-info-bottom">
+                                            <p>Abu Dhabi, Al Hudayriat Island, Bashayer Villas</p>
+                                            <div class="unit-card-info-buttons">
+                                                <a href="/unit.html" class="button gray sm">View details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-wrapper">
+            <div class="footer-inner">
+                <div class="footer-info">
+                    <div class="subscribe">
+                        <label for="subs">
+                            <span>Keep Yourself Up to Date</span>
+                            <input type="email" id="subs" placeholder="Your email address">
+                        </label>
+                        <button class="button green xl" >
+                            
+                            <span>Subscribe</span>
+                        </button>
+
+                    </div>
+                    <a class="footer-logo" href="/">
+                        <img class="footer-logo" src="/img/logo.svg" width="132" height="50" alt="Vector logotype">
+                    </a>
+                    <div class="footer-block">
+                        <span>Address</span>
+                        <address>
+                            Sheikh Zayed Road, Building 25 <br>
+                            Al Quoz 3 <br>
+                            Dubai
+                        </address>
+                    </div>
+                    <div class="footer-block">
+                        <span>Live Support?</span>
+                        <a href="mailto:info@distressuae.com">
+                            info@distressuae.com
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-menu">
+                    <nav>
+                        <ul class="menu">
+                            <li class="menu-item">
+                                <span>Discover</span>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#">Distress properties</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#">List your property</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#">How it works</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#">About us</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <nav>
+                        <ul class="menu">
+                            <li class="menu-item">
+                                <span>Quick Links</span>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#">Terms of Use</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#">Privacy Policy</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#">Contact</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#">Dubai Hills</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#">FAQs</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="copyright">
+                <span>© Distress UAE – All rights reserved</span>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="modal-wrapper plan-modal" data-modal-id="plan-modal">
+    <div class="modal">
+        <button class="modal-close" data-modal-close aria-label="Close">
+            <img src="/img/close-white.svg" width="24" height="24" alt="Close icon">
+        </button>
+        <img class="plan-img" data-modal-img src="#" alt="Plan full">
+    </div>
+</div>
+</div><!-- .wrapper -->
+
+<script src="/js/main.min.js"></script>
+</body>
+
+</html>
